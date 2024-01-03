@@ -1,4 +1,5 @@
 import {go} from "./ascendancy.js";
+import {go2} from "./gem.js";
 
 let boxFill = document.getElementById("second");
 let generator = document.getElementById("generator");
@@ -12,3 +13,5 @@ generator.addEventListener("click", function() {
     ascHere.textContent = returnedArr[0];
     ascHere.style.color = returnedArr[1];
 })
+
+go2()
