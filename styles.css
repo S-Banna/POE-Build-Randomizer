@@ -17,6 +17,10 @@ html, body {
     height: 100%;
 }
 
+*, *:active, *:link, *:hover {
+    cursor: url(images/Ezomyte_Cursor_inventory_icon.png), pointer !important;
+}
+
 #head {
     font-size: 24px;
     font-weight: 400;
@@ -93,6 +97,13 @@ html, body {
     display: flex;
     flex: 1;
     flex-direction: column;
+}
+
+#generator:hover {
+    color: white;
+    background-color: black;
+    border: 1 solid white;
+    transition: all 0.05s ease-in-out;
 }
 
 .hidden {
