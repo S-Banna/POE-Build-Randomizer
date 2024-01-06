@@ -25,48 +25,60 @@
       <div id="mainCont">
         <button id="generator">Generate</button>
         <div class="borderBox">
-            <div id="titleOpts">Generation Options:</div>
-            <div id="options">
-              <div class="ascendancy">
-                <label for="ascendancy">Anscendancy</label>
-                <select name="ascendancy" id="ascendancy">
-                    <option value="anyAsc">Any</option>
-                    <option value="marauder">Marauder</option>
-                    <option value="templar">Templar</option>
-                    <option value="witch">Witch</option>
-                    <option value="shadow">Shadow</option>
-                    <option value="ranger">Ranger</option>
-                    <option value="duelist">Duelist</option>
-                </select>
-              </div>
-              <div class="gem">
-                <label for="gem">Main Gem</label>
-                <select name="gem" id="gem">
-                    <option value="anyGem">Any</option>
-                    <option value="attack">Attack</option>
-                    <option value="spell">Spell</option>
-                </select>
-              </div>
-              <div class="keystone">
-                <label for="keystones">Keystones</label>
-                <select name="keystones" id="keystones">
-                    <option value="noKey">0</option>
-                    <option value="2-4">2-4</option>
-                </select>
-              </div>
-              <div class="unique">
-                <label for="uniques">Uniques</label>
-                <select name="uniques" id="uniques">
-                    <option value="noUni">No</option>
-                    <option value="yes">Weapon and Gear</option>
-                    <option value="weapon">Weapon Only</option>
-                </select>
-              </div>
+          <div id="titleOpts">Generation Options:</div>
+          <div id="options">
+            <div class="ascendancy">
+              <label for="ascendancy">Anscendancy</label>
+              <select name="ascendancy" id="ascendancy">
+                <option value="anyAsc">Any</option>
+                <option value="marauder">Marauder</option>
+                <option value="templar">Templar</option>
+                <option value="witch">Witch</option>
+                <option value="shadow">Shadow</option>
+                <option value="ranger">Ranger</option>
+                <option value="duelist">Duelist</option>
+              </select>
             </div>
+            <div class="gem">
+              <label for="gem">Main Gem</label>
+              <select name="gem" id="gem">
+                <option value="anyGem">Any</option>
+                <option style="color: rgb(37, 197, 64);" value="green">Green</option>
+                <option style="color: rgb(46, 46, 255);" value="blue">Blue</option>
+                <option style="color: red;" value="red">Red</option>
+              </select>
+            </div>
+            <div class="keystone">
+              <label for="keystones">Keystones</label>
+              <select name="keystones" id="keystones">
+                <option value="noKey">0</option>
+                <option value="2-4">2-4</option>
+              </select>
+            </div>
+            <div class="unique">
+              <label for="uniques">Uniques</label>
+              <select name="uniques" id="uniques">
+                <option value="noUni">No</option>
+                <option value="yes">Weapon and Gear</option>
+                <option value="weapon">Weapon Only</option>
+              </select>
+            </div>
+          </div>
         </div>
         <div class="hidden" id="second">
           <div>
-            <div>Your chosen ascendancy: <div id="ascHere"></div></div>
+            <div>
+              Your chosen ascendancy:
+              <div id="ascHere"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hidden" id="third">
+          <div>
+            <div>
+              Your chosen main skill gem:
+              <div id="gemHere"></div>
+            </div>
           </div>
         </div>
       </div>
