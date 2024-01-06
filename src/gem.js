@@ -4,14 +4,11 @@ let redGems = [
   "Ancestral Cry",
   "Ancestral Protector",
   "Ancestral Warchief",
-  "Anger",
   "Animate Guardian",
   "Animate Guardian of Smiting",
   "Battlemages Cry",
-  "Berserk",
   "Bladestorm",
   "Bladestorm of Uncertainty",
-  "Blood and Sand",
   "Boneshatter",
   "Boneshatter of Carnage",
   "Boneshatter of Complex Trauma",
@@ -23,21 +20,16 @@ let redGems = [
   "Corrupting Fever",
   "Decoy Totem",
   "Defiance Banner",
-  "Determination",
   "Devouring Totem",
   "Dominating Blow",
   "Dominating Blow of Inspiring",
-  "Dread Banner",
   "Earthquake",
   "Earthquake of Amplification",
   "Earthshatter",
   "Earthshatter of Fragility",
   "Earthshatter of Prominence",
-  "Enduring Cry",
   "Exsanguinate",
   "Exsanguinate of Transmission",
-  "Flame Link",
-  "Flesh and Stone",
   "Frozen Legion",
   "Frozen Legion of Rallying",
   "Generals Cry",
@@ -52,11 +44,8 @@ let redGems = [
   "Holy Flame Totem of Ire",
   "Ice Crash",
   "Ice Crash of Cadence",
-  "Immortal Call",
   "Infernal Blow",
   "Infernal Blow of Immolation",
-  "Infernal Cry",
-  "Intimidating Cry",
   "Leap Slam",
   "Leap Slam of Groundbreaking",
   "Molten Shell",
@@ -65,19 +54,10 @@ let redGems = [
   "Perforate",
   "Perforate of Bloodshed",
   "Perforate of Duality",
-  "Petrified Blood",
-  "Pride",
-  "Protective Link",
-  "Punishment",
-  "Purity of Fire",
   "Rage Vortex",
   "Rage Vortex of Berserking",
-  "Rallying Cry",
   "Reap",
   "Reckoning",
-  "Rejuvenation Totem",
-  "Searing Bond",
-  "Seismic Cry",
   "Shield Charge",
   "Shield Crush",
   "Shield Crush of the Chieftain",
@@ -85,7 +65,6 @@ let redGems = [
   "Smite",
   "Smite of Divine Judgement",
   "Static Strike",
-  "Steelskin",
   "Summon Flame Golem",
   "Summon Flame Golem of Hordes",
   "Summon Flame Golem of the Meteor",
@@ -104,33 +83,24 @@ let redGems = [
   "Vaal Earthquake",
   "Vaal Glacial Hammer",
   "Vaal Ground Slam",
-  "Vaal Impurity of Fire",
-  "Vaal Molten Shell",
   "Vaal Molten Strike",
   "Vaal Reap",
-  "Vaal Rejuvenation Totem",
   "Vaal Smite",
   "Vaal Volcanic Fissure",
   "Vengeance",
   "Vigilant Strike",
-  "Vitality",
   "Volcanic Fissure",
   "Volcanic Fissure of Snaking",
-  "Vulnerability",
-  "War Banner",
-  "Warlord's Mark",
 ];
 
 let blueGems = [
   "Arc",
   "Arc of Oscillating",
   "Arc of Surging",
-  "Arcane Cloak",
   "Arcanist Brand",
   "Armageddon Brand",
   "Armageddon Brand of Recall",
   "Armageddon Brand of Volatility",
-  "Assassin's Mark",
   "Ball Lightning",
   "Ball Lightning of Orbiting",
   "Ball Lightning of Static",
@@ -142,17 +112,12 @@ let blueGems = [
   "Blight of Contagion",
   "Bodyswap",
   "Bodyswap of Sacrifice",
-  "Bone Offering",
-  "Brand Recall",
-  "Clarity",
   "Cold Snap",
   "Cold Snap of Power",
-  "Conductivity",
   "Contagion",
   "Contagion of Subsiding",
   "Contagion of Transference",
   "Conversion Trap",
-  "Convocation",
   "Crackling Lance",
   "Crackling Lance of Branching",
   "Crackling Lance of Disintegration",
@@ -162,13 +127,10 @@ let blueGems = [
   "Destructive Link",
   "Discharge",
   "Discharge of Misery",
-  "Discipline",
   "Divine Ire",
   "Divine Ire of Disintegration",
   "Divine Ire of Holy Lightning",
-  "Elemental Weakness",
   "Energy Blade",
-  "Enfeeble",
   "Essence Drain",
   "Essence Drain of Desperation",
   "Essence Drain of Wickedness",
@@ -188,16 +150,13 @@ let blueGems = [
   "Flameblast of Celerity",
   "Flameblast of Contraction",
   "Flammability",
-  "Flesh Offering",
   "Forbidden Rite",
   "Forbidden Rite of Soul Sacrifice",
   "Freezing Pulse",
   "Frost Bomb",
   "Frost Bomb of Forthcoming",
   "Frost Bomb of Instability",
-  "Frost Shield",
   "Frost Wall",
-  "Frostbite",
   "Frostblink",
   "Frostblink of Wintry Blast",
   "Frostbolt",
@@ -233,8 +192,6 @@ let blueGems = [
   "Lightning Trap",
   "Lightning Trap of Sparking",
   "Lightning Warp",
-  "Malevolence",
-  "Manabond",
   "Orb of Storms",
   "Penance Brand",
   "Penance Brand of Conduction",
@@ -243,8 +200,6 @@ let blueGems = [
   "Power Siphon of the Archmage",
   "Purifying Flame",
   "Purifying Flame of Revelations",
-  "Purity of Elements",
-  "Purity of Lightning",
   "Pyroclast Mine",
   "Pyroclast Mine of Sabotage",
   "Raise Spectre",
@@ -260,7 +215,6 @@ let blueGems = [
   "Shock Nova",
   "Sigil of Power",
   "Siphoning Trap",
-  "Soul Link",
   "Soulrend",
   "Soulrend of Reaping",
   "Soulrend of the Spiral",
@@ -268,7 +222,6 @@ let blueGems = [
   "Spark of the Nova",
   "Spark of Unpredictability",
   "Spellslinger",
-  "Spirit Offering",
   "Storm Brand",
   "Storm Brand of Indecision",
   "Storm Burst",
@@ -297,14 +250,11 @@ let blueGems = [
   "Tempest Shield",
   "Vaal Arc",
   "Vaal Blight",
-  "Vaal Clarity",
   "Vaal Cold Snap",
-  "Vaal Discipline",
   "Vaal Fireball",
   "Vaal Firestorm",
   "Vaal Flameblast",
   "Vaal Ice Nova",
-  "Vaal Impurity of Lightning",
   "Vaal Lightning Trap",
   "Vaal Power Siphon",
   "Vaal Righteous Fire",
@@ -319,18 +269,13 @@ let blueGems = [
   "Wave of Conviction",
   "Winter Orb",
   "Wintertide Brand",
-  "Wither",
-  "Wrath",
-  "Zealotry",
 ];
 
 let greenGems = [
-  "Alchemist's Mark",
   "Ambush",
   "Animate Weapon",
   "Animate Weapon of Ranged Arms",
   "Animate Weapon of Self Reflection",
-  "Arctic Armour",
   "Artillery Ballista",
   "Barrage",
   "Barrage of Volley Fire",
@@ -353,7 +298,6 @@ let greenGems = [
   "Blink Arrow",
   "Blink Arrow of Bombarding Clones",
   "Blink Arrow of Prismatic Clones",
-  "Blood Rage",
   "Burning Arrow",
   "Burning Arrow of Vigour",
   "Caustic Arrow",
@@ -365,7 +309,6 @@ let greenGems = [
   "Cremation of the Volcano",
   "Cyclone",
   "Cyclone of Tumult",
-  "Dash",
   "Desecrate",
   "Detonate Dead",
   "Detonate Dead of Chain Reaction",
@@ -398,15 +341,11 @@ let greenGems = [
   "Galvanic Arrow",
   "Galvanic Arrow of Energy",
   "Galvanic Arrow of Surging",
-  "Grace",
-  "Haste",
-  "Hatred",
   "Herald of Agony",
   "Herald of Ice",
   "Ice Shot",
   "Ice Trap",
   "Ice Trap of Hollowness",
-  "Intuitive Link",
   "Lacerate",
   "Lacerate of Butchering",
   "Lacerate of Haemorrhage",
@@ -420,13 +359,9 @@ let greenGems = [
   "Mirror Arrow of Bombarding Clones",
   "Mirror Arrow of Prismatic Clones",
   "Pestilent Strike",
-  "Phase Run",
   "Plague Bearer",
-  "Poacher's Mark",
   "Poisonous Concoction",
-  "Precision",
   "Puncture",
-  "Purity of Ice",
   "Rain of Arrows",
   "Rain of Arrows of Artillery",
   "Rain of Arrows of Saturation",
@@ -443,9 +378,7 @@ let greenGems = [
   "Shrapnel Ballista of Steel",
   "Siege Ballista",
   "Siege Ballista of Splintering",
-  "Smoke Mine",
   "Snipe",
-  "Sniper's Mark",
   "Spectral Helix",
   "Spectral Shield Throw",
   "Spectral Shield Throw of Shattering",
@@ -461,7 +394,6 @@ let greenGems = [
   "Summon Ice Golem",
   "Summon Ice Golem of Hordes",
   "Summon Ice Golem of Shattering",
-  "Temporal Chains",
   "Temporal Rift",
   "Tornado",
   "Tornado Shot",
@@ -471,7 +403,6 @@ let greenGems = [
   "Toxic Rain of Withering",
   "Unearth",
   "Vaal Animate Weapon",
-  "Vaal Arctic Armour",
   "Vaal Blade Flurry",
   "Vaal Blade Vortex",
   "Vaal Burning Arrow",
@@ -480,17 +411,13 @@ let greenGems = [
   "Vaal Detonate Dead",
   "Vaal Double Strike",
   "Vaal Flicker Strike",
-  "Vaal Grace",
-  "Vaal Haste",
   "Vaal Ice Shot",
-  "Vaal Impurity of Ice",
   "Vaal Lightning Arrow",
   "Vaal Lightning Strike",
   "Vaal Rain of Arrows",
   "Vaal Reave",
   "Vaal Spectral Throw",
   "Vaal Venom Gyre",
-  "Vampiric Link",
   "Venom Gyre",
   "Viper Strike",
   "Viper Strike of the Mamba",
@@ -500,11 +427,60 @@ let greenGems = [
   "Whirling Blades",
   "Wild Strike",
   "Wild Strike of Extremes",
-  "Withering Step",
 ];
 
 function go2() {
-    
+  let valueGo = document.getElementById("gem").value;
+  let returnArr = [];
+
+  switch (valueGo) {
+    case "red":
+      //eslint-disable-next-line no-case-declarations
+      let numb = Math.floor(Math.random() * 92);
+      returnArr.push(redGems[numb]);
+      returnArr.push("red");
+      break;
+    case "blue":
+      //eslint-disable-next-line no-case-declarations
+      let numb2 = Math.floor(Math.random() * 175);
+      returnArr.push(blueGems[numb2]);
+      returnArr.push("rgb(46, 46, 255)");
+      break;
+    case "green":
+      //eslint-disable-next-line no-case-declarations
+      let numb3 = Math.floor(Math.random() * 155);
+      returnArr.push(greenGems[numb3]);
+      returnArr.push("rgb(53, 235, 83)");
+      break;
+    case "anyGem":
+      //eslint-disable-next-line no-case-declarations
+      let one = Math.floor(Math.random() * 4);
+      while (one == 0) {
+        one = Math.floor(Math.random() * 4);
+      }
+      switch (one) {
+        case 1:
+          //eslint-disable-next-line no-case-declarations
+          let numb = Math.floor(Math.random() * 92);
+          returnArr.push(redGems[numb]);
+          returnArr.push("red");
+          break;
+        case 2:
+          //eslint-disable-next-line no-case-declarations
+          let numb2 = Math.floor(Math.random() * 175);
+          returnArr.push(blueGems[numb2]);
+          returnArr.push("rgb(46, 46, 255)");
+          break;
+        case 3:
+          //eslint-disable-next-line no-case-declarations
+          let numb3 = Math.floor(Math.random() * 155);
+          returnArr.push(greenGems[numb3]);
+          returnArr.push("rgb(53, 235, 83)");
+          break;
+      }
+  }
+
+  return returnArr;
 }
 
 export { go2 };
