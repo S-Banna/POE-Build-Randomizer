@@ -1,10 +1,15 @@
+@font-face {
+  font-family: MainFont;
+  src: url(fontin-smallcaps-webfont.woff);
+}
+
 html,
 body {
   margin: 0;
   background-image: url(images/warlock.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   background-position: center;
   color: rgb(202, 202, 202);
   background-color: black;
@@ -20,7 +25,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
+  min-height: 100%;
 }
 
 *,
@@ -30,14 +36,31 @@ body {
   cursor: url(images/Ezomyte_Cursor_inventory_icon.png), pointer !important;
 }
 
+div, label, select, a {
+  font-family: MainFont, sans-serif !important;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer !important;
+}
+
+#generator {
+  font-size: 18px;
+}
+
 #head {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 400;
   margin: 20px 0px 0px 20px;
 }
 
 #head2 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   margin: 10px 0px 0px 20px;
 }
@@ -72,12 +95,12 @@ body {
 
 #titleOpts {
   margin-bottom: 10px;
+  font-size: 18px;
 }
 
 .unhidden {
   display: flex;
   flex-direction: row;
-  gap: 30px;
   flex-wrap: wrap;
   flex: 1;
   justify-content: center;
@@ -92,14 +115,16 @@ body {
 }
 
 #ascHere,
-#gemHere {
-  font-size: 18px;
+#gemHere,
+#keystoneHere {
+  font-size: 24px;
   font-weight: 400;
   margin: 3px;
 }
 
 #second,
-#third {
+#third,
+#fourth {
   margin-top: 10px;
   border-top: solid white 0.2px;
   border-bottom: solid white 0.2px;
@@ -108,6 +133,10 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
+}
+
+#fourth {
+  margin-bottom: 20px;
 }
 
 #generator:hover {
