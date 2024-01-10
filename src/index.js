@@ -5,6 +5,7 @@ import { go3 } from "./keystone.js"
 let boxFillasc = document.getElementById("second");
 let boxFillgem = document.getElementById("third");
 let boxFillkey = document.getElementById("fourth");
+let imgFillkey = document.getElementById("keyImgHere")
 let generator = document.getElementById("generator");
 let ascHere = document.getElementById("ascHere");
 let gemHere = document.getElementById("gemHere");
@@ -30,4 +31,5 @@ generator.addEventListener("click", function () {
   keystoneHere.href = returnedArr3[2];
   boxFillkey.classList.remove("hidden");
   boxFillkey.classList.add("unhidden");
+  imgFillkey.src = "keystones/" + returnedArr3[0].replaceAll(" ", "") + ".png";
 });
