@@ -146,6 +146,24 @@ a:hover {
   transition: all 0.05s ease-in-out;
 }
 
+#cont {
+  position: relative;
+  margin-top: 20px;
+}
+
+#keyImgHere {
+  width: 100px;
+  height: 100px;
+}
+
+#overlay2 {
+  position: absolute;
+  top: -22px;
+  left: -24px;
+  height: 150px;
+  width: 150px;
+}
+
 .hidden {
   display: none !important;
 }
