@@ -18,7 +18,7 @@
       <header>
         <div id="head">Random Build Generator</div>
         <div id="head2">
-          A random generator for Path of Exile Ascendancies, Skills, Keystones and Gear!
+          A random generator for Path of Exile Ascendancies, Skills, and Keystones!
         </div>
       </header>
       <div id="mainCont">
@@ -51,15 +51,8 @@
               <label for="keystones">Keystones</label>
               <select name="keystones" id="keystones">
                 <option value="noKey">0</option>
-                <option value="yesKey">2</option>
-              </select>
-            </div>
-            <div class="unique">
-              <label for="uniques">Uniques</label>
-              <select name="uniques" id="uniques">
-                <option value="noUni">No</option>
-                <option value="yes">Weapon and Gear</option>
-                <option value="weapon">Weapon Only</option>
+                <option value="oneKey">1</option>
+                <option value="twoKey">2</option>
               </select>
             </div>
           </div>
@@ -81,9 +74,17 @@
           </div>
         </div>
         <div class="hidden" id="fourth">
-          <div>Keystones</div>
-          <a id="keystoneHere"></a>
-          <div id="cont"><img src="" id="keyImgHere"><img src="images/Keystone_passive_frame.png" id="overlay2"></div>
+          <div style="margin-bottom: 20px; font-size: 20px;">Keystones</div>
+          <div id="keyHolder">
+            <div id="firstKey">
+              <a id="keystoneHere" target="_blank"></a>
+              <div id="cont"><img src="" id="keyImgHere"></div>
+            </div>
+            <div id="secondKey" class="hidden">
+              <a id="keystone2Here" target="_blank"></a>
+              <div id="cont2"><img src="" id="keyImg2Here"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
