@@ -16,7 +16,7 @@ body {
 }
 
 body {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #overlay {
@@ -36,7 +36,10 @@ body {
   cursor: url(images/Ezomyte_Cursor_inventory_icon.png), pointer !important;
 }
 
-div, label, select, a {
+div,
+label,
+select,
+a {
   font-family: MainFont, sans-serif !important;
   font-size: 16px;
 }
@@ -116,7 +119,8 @@ a:hover {
 
 #ascHere,
 #gemHere,
-#keystoneHere {
+#keystoneHere,
+#keystone2Here {
   font-size: 24px;
   font-weight: 400;
   margin: 3px;
@@ -146,24 +150,33 @@ a:hover {
   transition: all 0.05s ease-in-out;
 }
 
-#cont {
-  position: relative;
-  margin-top: 20px;
+#keyHolder {
+  display: flex;
+  gap: 60px;
 }
 
-#keyImgHere {
-  width: 100px;
-  height: 100px;
+#cont, #cont2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#overlay2 {
-  position: absolute;
-  top: -22px;
-  left: -24px;
-  height: 150px;
-  width: 150px;
+#firstKey,
+#secondKey {
+  display: flex;
+  flex-direction: column;
 }
 
 .hidden {
   display: none !important;
+}
+
+@media only screen and (max-width: 450px) {
+  #overlay {
+    width: 100vw;
+  }
+  body {
+    width: 100vw;
+  }
 }

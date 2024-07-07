@@ -71,19 +71,27 @@ let fourth = document.getElementById("fourth");
 
 function go3() {
   let variable = document.getElementById("keystones").value;
-  if (variable == "yesKey") {
+  if (variable == "noKey") {
+    fourth.classList.add("hidden");
+    fourth.classList.remove("unhidden");
+    return;
+  } else {
     let returnArr = [];
     let num = Math.floor(Math.random() * 66);
     returnArr.push(keystones[num]);
     returnArr.push("orange");
     returnArr.push(
-      "https://www.poewiki.net/wiki/" + keystones[num].replace(" ", "_"),
+      "https://www.poewiki.net/wiki/" + keystones[num].replace(" ", "_")
     );
+    if (variable == "twoKey") {
+      let num = Math.floor(Math.random() * 66);
+      returnArr.push(keystones[num]);
+      returnArr.push("orange");
+      returnArr.push(
+        "https://www.poewiki.net/wiki/" + keystones[num].replace(" ", "_")
+      );
+    }
     return returnArr;
-  } else {
-    fourth.classList.add("hidden");
-    fourth.classList.remove("unhidden");
-    return;
   }
 }
 
