@@ -4,7 +4,7 @@ let keystones = [
   "Arrow Dancing",
   "Avatar of Fire",
   "Blood Magic",
-  "Call to Arms",
+  "Warlord's Call",
   "Chainbreaker",
   "Chaos Innoculation",
   "Conduit",
@@ -67,6 +67,24 @@ let keystones = [
   "Zealot's Oath",
 ];
 
+let timeless = [
+  "Chainbreaker",
+  "Corrupted Soul",
+  "Dance with Death",
+  "Divine Flesh",
+  "Immortal Ambition",
+  "Inner Conviction",
+  "Power of Purpose",
+  "Second Sight",
+  "Strength of Blood",
+  "Supreme Decadence",
+  "Supreme Grandstanding",
+  "Supreme Ostentation",
+  "Tempered by War",
+  "The Traitor",
+  "Transcendence"
+]
+
 let fourth = document.getElementById("fourth");
 
 function go3() {
@@ -81,14 +99,17 @@ function go3() {
     returnArr.push(keystones[num]);
     returnArr.push("orange");
     returnArr.push(
-      "https://www.poewiki.net/wiki/" + keystones[num].replace(" ", "_")
+      "https://www.poewiki.net/wiki/" + keystones[num].replaceAll(" ", "_")
     );
     if (variable == "twoKey") {
-      let num = Math.floor(Math.random() * 66);
-      returnArr.push(keystones[num]);
+      let num2 = Math.floor(Math.random() * 66);
+      while (returnArr.includes(keystones[num2]) || (timeless.includes(keystones[num]) && timeless.includes(keystones[num2]))) {
+        num2 = Math.floor(Math.random() * 66);
+      }
+      returnArr.push(keystones[num2]);
       returnArr.push("orange");
       returnArr.push(
-        "https://www.poewiki.net/wiki/" + keystones[num].replace(" ", "_")
+        "https://www.poewiki.net/wiki/" + keystones[num2].replaceAll(" ", "_")
       );
     }
     return returnArr;

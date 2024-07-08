@@ -1,12 +1,10 @@
 let redGems = [
   "Absolution",
   "Absolution of Inspiring",
-  "Ancestral Cry",
   "Ancestral Protector",
   "Ancestral Warchief",
   "Animate Guardian",
   "Animate Guardian of Smiting",
-  "Battlemages Cry",
   "Bladestorm",
   "Bladestorm of Uncertainty",
   "Boneshatter",
@@ -19,8 +17,6 @@ let redGems = [
   "Consecrated Path of Endurance",
   "Corrupting Fever",
   "Decoy Totem",
-  "Defiance Banner",
-  "Devouring Totem",
   "Dominating Blow",
   "Dominating Blow of Inspiring",
   "Earthquake",
@@ -97,7 +93,6 @@ let blueGems = [
   "Arc",
   "Arc of Oscillating",
   "Arc of Surging",
-  "Arcanist Brand",
   "Armageddon Brand",
   "Armageddon Brand of Recall",
   "Armageddon Brand of Volatility",
@@ -123,8 +118,6 @@ let blueGems = [
   "Crackling Lance of Disintegration",
   "Creeping Frost",
   "Dark Pact",
-  "Despair",
-  "Destructive Link",
   "Discharge",
   "Discharge of Misery",
   "Divine Ire",
@@ -149,7 +142,6 @@ let blueGems = [
   "Flameblast",
   "Flameblast of Celerity",
   "Flameblast of Contraction",
-  "Flammability",
   "Forbidden Rite",
   "Forbidden Rite of Soul Sacrifice",
   "Freezing Pulse",
@@ -213,7 +205,6 @@ let blueGems = [
   "Scorching Ray",
   "Scorching Ray of Immolation",
   "Shock Nova",
-  "Sigil of Power",
   "Siphoning Trap",
   "Soulrend",
   "Soulrend of Reaping",
@@ -272,7 +263,6 @@ let blueGems = [
 ];
 
 let greenGems = [
-  "Ambush",
   "Animate Weapon",
   "Animate Weapon of Ranged Arms",
   "Animate Weapon of Self Reflection",
@@ -309,7 +299,6 @@ let greenGems = [
   "Cremation of the Volcano",
   "Cyclone",
   "Cyclone of Tumult",
-  "Desecrate",
   "Detonate Dead",
   "Detonate Dead of Chain Reaction",
   "Detonate Dead of Scavenging",
@@ -344,6 +333,7 @@ let greenGems = [
   "Herald of Agony",
   "Herald of Ice",
   "Ice Shot",
+  "Ice Shot of Penetration",
   "Ice Trap",
   "Ice Trap of Hollowness",
   "Lacerate",
@@ -394,14 +384,13 @@ let greenGems = [
   "Summon Ice Golem",
   "Summon Ice Golem of Hordes",
   "Summon Ice Golem of Shattering",
-  "Temporal Rift",
   "Tornado",
+  "Tornado of Elemental Turbulence",
   "Tornado Shot",
   "Tornado Shot of Cloudburst",
   "Toxic Rain",
   "Toxic Rain of Sporeburst",
   "Toxic Rain of Withering",
-  "Unearth",
   "Vaal Animate Weapon",
   "Vaal Blade Flurry",
   "Vaal Blade Vortex",
@@ -436,21 +425,30 @@ function go2() {
   switch (valueGo) {
     case "red":
       //eslint-disable-next-line no-case-declarations
-      let numb = Math.floor(Math.random() * 92);
+      let numb = Math.floor(Math.random() * 88);
       returnArr.push(redGems[numb]);
       returnArr.push("red");
+      returnArr.push(
+        "https://www.poewiki.net/wiki/" + redGems[numb].replaceAll(" ", "_")
+      );
       break;
     case "blue":
       //eslint-disable-next-line no-case-declarations
-      let numb2 = Math.floor(Math.random() * 175);
+      let numb2 = Math.floor(Math.random() * 170);
       returnArr.push(blueGems[numb2]);
       returnArr.push("rgb(46, 46, 255)");
+      returnArr.push(
+        "https://www.poewiki.net/wiki/" + blueGems[numb2].replaceAll(" ", "_")
+      );
       break;
     case "green":
       //eslint-disable-next-line no-case-declarations
-      let numb3 = Math.floor(Math.random() * 155);
+      let numb3 = Math.floor(Math.random() * 153);
       returnArr.push(greenGems[numb3]);
       returnArr.push("rgb(53, 235, 83)");
+      returnArr.push(
+        "https://www.poewiki.net/wiki/" + greenGems[numb3].replaceAll(" ", "_")
+      );
       break;
     case "anyGem":
       //eslint-disable-next-line no-case-declarations
@@ -461,21 +459,32 @@ function go2() {
       switch (one) {
         case 1:
           //eslint-disable-next-line no-case-declarations
-          let numb = Math.floor(Math.random() * 92);
+          let numb = Math.floor(Math.random() * 88);
           returnArr.push(redGems[numb]);
           returnArr.push("red");
+          returnArr.push(
+            "https://www.poewiki.net/wiki/" + redGems[numb].replaceAll(" ", "_")
+          );
           break;
         case 2:
           //eslint-disable-next-line no-case-declarations
-          let numb2 = Math.floor(Math.random() * 175);
+          let numb2 = Math.floor(Math.random() * 170);
           returnArr.push(blueGems[numb2]);
           returnArr.push("rgb(46, 46, 255)");
+          returnArr.push(
+            "https://www.poewiki.net/wiki/" +
+              blueGems[numb2].replaceAll(" ", "_")
+          );
           break;
         case 3:
           //eslint-disable-next-line no-case-declarations
-          let numb3 = Math.floor(Math.random() * 155);
+          let numb3 = Math.floor(Math.random() * 153);
           returnArr.push(greenGems[numb3]);
           returnArr.push("rgb(53, 235, 83)");
+          returnArr.push(
+            "https://www.poewiki.net/wiki/" +
+              greenGems[numb3].replaceAll(" ", "_")
+          );
           break;
       }
   }

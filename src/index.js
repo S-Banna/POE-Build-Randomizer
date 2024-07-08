@@ -27,6 +27,7 @@ generator.addEventListener("click", function () {
   boxFillgem.classList.add("unhidden");
   gemHere.textContent = returnedArr2[0];
   gemHere.style.color = returnedArr2[1];
+  gemHere.href = returnedArr2[2];
   //below for keystone
   let returnedArr3 = go3();
   keystoneHere.style.color = "orange";
@@ -43,6 +44,7 @@ generator.addEventListener("click", function () {
     keystone2Here.style.color = "orange";
     keystone2Here.textContent = returnedArr3[3];
     keystone2Here.href = returnedArr3[5];
-    imgFill2key.src = "keystones/" + returnedArr3[3].replaceAll(" ", "") + ".png";
+    imgFill2key.src =
+      "keystones/" + returnedArr3[3].replaceAll(" ", "") + ".png";
   }
 });
