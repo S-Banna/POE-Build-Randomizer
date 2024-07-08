@@ -17,6 +17,7 @@ let ascendancies = [
   "Slayer",
   "Champion",
   "Gladiator",
+  "Ascendant"
 ];
 
 function go() {
@@ -66,6 +67,9 @@ function go() {
           returnArr.push("rgb(255, 255, 52)");
           break;
         }
+        case 18:
+          returnArr.push("white");
+          break
       }
       break;
     case "marauder":
